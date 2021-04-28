@@ -27,6 +27,17 @@ Start application
 node server.js
 ```
 
+# Running docker image
+
+docker pull nappy29/riceandbeanstudio
+
+docker run -it -p 3000:3000 --name my-name nappy29/riceandbeanstudio
+
+open localhost:3000 on browser
+
+Enjoy
+
+
 ## Built With
 
 * [SocketIO](https://socket.io/)
